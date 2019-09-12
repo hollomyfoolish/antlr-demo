@@ -1,0 +1,145 @@
+// Generated from Message.g4 by ANTLR 4.7.2
+// jshint ignore: start
+var antlr4 = require('antlr4/index');
+
+
+
+var serializedATN = ["\u0003\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964",
+    "\u0002\u000f\u0084\b\u0001\u0004\u0002\t\u0002\u0004\u0003\t\u0003\u0004",
+    "\u0004\t\u0004\u0004\u0005\t\u0005\u0004\u0006\t\u0006\u0004\u0007\t",
+    "\u0007\u0004\b\t\b\u0004\t\t\t\u0004\n\t\n\u0004\u000b\t\u000b\u0004",
+    "\f\t\f\u0004\r\t\r\u0004\u000e\t\u000e\u0004\u000f\t\u000f\u0004\u0010",
+    "\t\u0010\u0004\u0011\t\u0011\u0004\u0012\t\u0012\u0004\u0013\t\u0013",
+    "\u0004\u0014\t\u0014\u0004\u0015\t\u0015\u0004\u0016\t\u0016\u0004\u0017",
+    "\t\u0017\u0004\u0018\t\u0018\u0003\u0002\u0003\u0002\u0003\u0003\u0003",
+    "\u0003\u0003\u0004\u0003\u0004\u0003\u0005\u0003\u0005\u0003\u0006\u0003",
+    "\u0006\u0003\u0007\u0003\u0007\u0003\b\u0003\b\u0003\t\u0003\t\u0003",
+    "\n\u0003\n\u0003\u000b\u0003\u000b\u0003\f\u0003\f\u0003\r\u0003\r\u0003",
+    "\u000e\u0003\u000e\u0003\u000f\u0003\u000f\u0003\u0010\u0003\u0010\u0003",
+    "\u0011\u0003\u0011\u0003\u0011\u0003\u0011\u0003\u0011\u0003\u0012\u0003",
+    "\u0012\u0003\u0012\u0003\u0012\u0003\u0012\u0003\u0012\u0003\u0012\u0003",
+    "\u0013\u0003\u0013\u0003\u0013\u0006\u0013_\n\u0013\r\u0013\u000e\u0013",
+    "`\u0003\u0014\u0003\u0014\u0003\u0015\u0005\u0015f\n\u0015\u0003\u0015",
+    "\u0003\u0015\u0006\u0015j\n\u0015\r\u0015\u000e\u0015k\u0003\u0016\u0003",
+    "\u0016\u0006\u0016p\n\u0016\r\u0016\u000e\u0016q\u0003\u0016\u0003\u0016",
+    "\u0003\u0017\u0003\u0017\u0003\u0018\u0006\u0018y\n\u0018\r\u0018\u000e",
+    "\u0018z\u0003\u0018\u0003\u0018\u0006\u0018\u007f\n\u0018\r\u0018\u000e",
+    "\u0018\u0080\u0005\u0018\u0083\n\u0018\u0002\u0002\u0019\u0003\u0003",
+    "\u0005\u0004\u0007\u0005\t\u0006\u000b\u0007\r\b\u000f\u0002\u0011\u0002",
+    "\u0013\u0002\u0015\u0002\u0017\u0002\u0019\u0002\u001b\u0002\u001d\u0002",
+    "\u001f\u0002!\t#\n%\u000b\'\f)\r+\u000e-\u0002/\u000f\u0003\u0002\u0010",
+    "\u0004\u0002CCcc\u0004\u0002UUuu\u0004\u0002[[{{\u0004\u0002JJjj\u0004",
+    "\u0002QQqq\u0004\u0002WWww\u0004\u0002VVvv\u0003\u0002c|\u0003\u0002",
+    "C\\\u0004\u0002\u000b\u000b\"\"\u0004\u0002**]]\u0004\u0002++__\u0003",
+    "\u00022;\u0004\u0002..00\u0002\u0083\u0002\u0003\u0003\u0002\u0002\u0002",
+    "\u0002\u0005\u0003\u0002\u0002\u0002\u0002\u0007\u0003\u0002\u0002\u0002",
+    "\u0002\t\u0003\u0002\u0002\u0002\u0002\u000b\u0003\u0002\u0002\u0002",
+    "\u0002\r\u0003\u0002\u0002\u0002\u0002!\u0003\u0002\u0002\u0002\u0002",
+    "#\u0003\u0002\u0002\u0002\u0002%\u0003\u0002\u0002\u0002\u0002\'\u0003",
+    "\u0002\u0002\u0002\u0002)\u0003\u0002\u0002\u0002\u0002+\u0003\u0002",
+    "\u0002\u0002\u0002/\u0003\u0002\u0002\u0002\u00031\u0003\u0002\u0002",
+    "\u0002\u00053\u0003\u0002\u0002\u0002\u00075\u0003\u0002\u0002\u0002",
+    "\t7\u0003\u0002\u0002\u0002\u000b9\u0003\u0002\u0002\u0002\r;\u0003",
+    "\u0002\u0002\u0002\u000f=\u0003\u0002\u0002\u0002\u0011?\u0003\u0002",
+    "\u0002\u0002\u0013A\u0003\u0002\u0002\u0002\u0015C\u0003\u0002\u0002",
+    "\u0002\u0017E\u0003\u0002\u0002\u0002\u0019G\u0003\u0002\u0002\u0002",
+    "\u001bI\u0003\u0002\u0002\u0002\u001dK\u0003\u0002\u0002\u0002\u001f",
+    "M\u0003\u0002\u0002\u0002!O\u0003\u0002\u0002\u0002#T\u0003\u0002\u0002",
+    "\u0002%^\u0003\u0002\u0002\u0002\'b\u0003\u0002\u0002\u0002)i\u0003",
+    "\u0002\u0002\u0002+m\u0003\u0002\u0002\u0002-u\u0003\u0002\u0002\u0002",
+    "/x\u0003\u0002\u0002\u000212\u0007<\u0002\u00022\u0004\u0003\u0002\u0002",
+    "\u000234\u0007/\u0002\u00024\u0006\u0003\u0002\u0002\u000256\u0007+",
+    "\u0002\u00026\b\u0003\u0002\u0002\u000278\u0007*\u0002\u00028\n\u0003",
+    "\u0002\u0002\u00029:\u00071\u0002\u0002:\f\u0003\u0002\u0002\u0002;",
+    "<\u0007B\u0002\u0002<\u000e\u0003\u0002\u0002\u0002=>\t\u0002\u0002",
+    "\u0002>\u0010\u0003\u0002\u0002\u0002?@\t\u0003\u0002\u0002@\u0012\u0003",
+    "\u0002\u0002\u0002AB\t\u0004\u0002\u0002B\u0014\u0003\u0002\u0002\u0002",
+    "CD\t\u0005\u0002\u0002D\u0016\u0003\u0002\u0002\u0002EF\t\u0006\u0002",
+    "\u0002F\u0018\u0003\u0002\u0002\u0002GH\t\u0007\u0002\u0002H\u001a\u0003",
+    "\u0002\u0002\u0002IJ\t\b\u0002\u0002J\u001c\u0003\u0002\u0002\u0002",
+    "KL\t\t\u0002\u0002L\u001e\u0003\u0002\u0002\u0002MN\t\n\u0002\u0002",
+    "N \u0003\u0002\u0002\u0002OP\u0005\u0011\t\u0002PQ\u0005\u000f\b\u0002",
+    "QR\u0005\u0013\n\u0002RS\u0005\u0011\t\u0002S\"\u0003\u0002\u0002\u0002",
+    "TU\u0005\u0011\t\u0002UV\u0005\u0015\u000b\u0002VW\u0005\u0017\f\u0002",
+    "WX\u0005\u0019\r\u0002XY\u0005\u001b\u000e\u0002YZ\u0005\u0011\t\u0002",
+    "Z$\u0003\u0002\u0002\u0002[_\u0005\u001d\u000f\u0002\\_\u0005\u001f",
+    "\u0010\u0002]_\u0007a\u0002\u0002^[\u0003\u0002\u0002\u0002^\\\u0003",
+    "\u0002\u0002\u0002^]\u0003\u0002\u0002\u0002_`\u0003\u0002\u0002\u0002",
+    "`^\u0003\u0002\u0002\u0002`a\u0003\u0002\u0002\u0002a&\u0003\u0002\u0002",
+    "\u0002bc\t\u000b\u0002\u0002c(\u0003\u0002\u0002\u0002df\u0007\u000f",
+    "\u0002\u0002ed\u0003\u0002\u0002\u0002ef\u0003\u0002\u0002\u0002fg\u0003",
+    "\u0002\u0002\u0002gj\u0007\f\u0002\u0002hj\u0007\u000f\u0002\u0002i",
+    "e\u0003\u0002\u0002\u0002ih\u0003\u0002\u0002\u0002jk\u0003\u0002\u0002",
+    "\u0002ki\u0003\u0002\u0002\u0002kl\u0003\u0002\u0002\u0002l*\u0003\u0002",
+    "\u0002\u0002mo\t\f\u0002\u0002np\n\r\u0002\u0002on\u0003\u0002\u0002",
+    "\u0002pq\u0003\u0002\u0002\u0002qo\u0003\u0002\u0002\u0002qr\u0003\u0002",
+    "\u0002\u0002rs\u0003\u0002\u0002\u0002st\t\r\u0002\u0002t,\u0003\u0002",
+    "\u0002\u0002uv\t\u000e\u0002\u0002v.\u0003\u0002\u0002\u0002wy\u0005",
+    "-\u0017\u0002xw\u0003\u0002\u0002\u0002yz\u0003\u0002\u0002\u0002zx",
+    "\u0003\u0002\u0002\u0002z{\u0003\u0002\u0002\u0002{\u0082\u0003\u0002",
+    "\u0002\u0002|~\t\u000f\u0002\u0002}\u007f\u0005-\u0017\u0002~}\u0003",
+    "\u0002\u0002\u0002\u007f\u0080\u0003\u0002\u0002\u0002\u0080~\u0003",
+    "\u0002\u0002\u0002\u0080\u0081\u0003\u0002\u0002\u0002\u0081\u0083\u0003",
+    "\u0002\u0002\u0002\u0082|\u0003\u0002\u0002\u0002\u0082\u0083\u0003",
+    "\u0002\u0002\u0002\u00830\u0003\u0002\u0002\u0002\f\u0002^`eikqz\u0080",
+    "\u0082\u0002"].join("");
+
+
+var atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
+
+var decisionsToDFA = atn.decisionToState.map( function(ds, index) { return new antlr4.dfa.DFA(ds, index); });
+
+function MessageLexer(input) {
+	antlr4.Lexer.call(this, input);
+    this._interp = new antlr4.atn.LexerATNSimulator(this, atn, decisionsToDFA, new antlr4.PredictionContextCache());
+    return this;
+}
+
+MessageLexer.prototype = Object.create(antlr4.Lexer.prototype);
+MessageLexer.prototype.constructor = MessageLexer;
+
+Object.defineProperty(MessageLexer.prototype, "atn", {
+        get : function() {
+                return atn;
+        }
+});
+
+MessageLexer.EOF = antlr4.Token.EOF;
+MessageLexer.T__0 = 1;
+MessageLexer.T__1 = 2;
+MessageLexer.T__2 = 3;
+MessageLexer.T__3 = 4;
+MessageLexer.T__4 = 5;
+MessageLexer.T__5 = 6;
+MessageLexer.SAYS = 7;
+MessageLexer.SHOUTS = 8;
+MessageLexer.WORD = 9;
+MessageLexer.WHITESPACE = 10;
+MessageLexer.NEWLINE = 11;
+MessageLexer.TEXT = 12;
+MessageLexer.NUMBER = 13;
+
+MessageLexer.prototype.channelNames = [ "DEFAULT_TOKEN_CHANNEL", "HIDDEN" ];
+
+MessageLexer.prototype.modeNames = [ "DEFAULT_MODE" ];
+
+MessageLexer.prototype.literalNames = [ null, "':'", "'-'", "')'", "'('", 
+                                        "'/'", "'@'" ];
+
+MessageLexer.prototype.symbolicNames = [ null, null, null, null, null, null, 
+                                         null, "SAYS", "SHOUTS", "WORD", 
+                                         "WHITESPACE", "NEWLINE", "TEXT", 
+                                         "NUMBER" ];
+
+MessageLexer.prototype.ruleNames = [ "T__0", "T__1", "T__2", "T__3", "T__4", 
+                                     "T__5", "A", "S", "Y", "H", "O", "U", 
+                                     "T", "LOWERCASE", "UPPERCASE", "SAYS", 
+                                     "SHOUTS", "WORD", "WHITESPACE", "NEWLINE", 
+                                     "TEXT", "DIGIT", "NUMBER" ];
+
+MessageLexer.prototype.grammarFileName = "Message.g4";
+
+
+
+exports.MessageLexer = MessageLexer;
+
